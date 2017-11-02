@@ -1,0 +1,75 @@
+firstname:
+            albert
+lastname:
+            deiss
+company:
+            schreinerei
+street:
+            dorfstrasse 53
+postal_code:
+            5210
+city:
+            Windisch
+email:
+            albert.deiss@bluewin.ch
+phone:
+            079 377 06 41
+amount1:
+            5
+dimension1:
+            290 x 40
+grain1:
+            100
+quality1:
+            
+amount2:
+            5
+dimension2:
+            290 x 40
+grain2:
+            120
+quality2:
+            
+amount3:
+            
+dimension3:
+            
+grain3:
+            
+quality3:
+            
+amount4:
+            
+dimension4:
+            
+grain4:
+            
+quality4:
+            
+amount5:
+            
+dimension5:
+            
+grain5:
+            
+quality5:
+            
+amount6:
+            
+dimension6:
+            
+grain6:
+            
+quality6:
+            
+amount7:
+            
+dimension7:
+            
+grain7:
+            
+quality7:
+            
+comments:
+            
+

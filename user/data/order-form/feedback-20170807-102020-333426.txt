@@ -1,0 +1,75 @@
+firstname:
+            Alex
+lastname:
+            Stierli
+company:
+            Brändle AG
+street:
+            Grienbachgstrasse 33
+postal_code:
+            6300
+city:
+            Zug
+email:
+            alex.stierli@braendle-ag.ch
+phone:
+            041 767 33 73
+amount1:
+            5
+dimension1:
+            1350mm x 2000mm
+grain1:
+            80
+quality1:
+            CRISTAL
+amount2:
+            5
+dimension2:
+            1350mm x 2000mm
+grain2:
+            120
+quality2:
+            CRISTAL
+amount3:
+            
+dimension3:
+            
+grain3:
+            
+quality3:
+            
+amount4:
+            
+dimension4:
+            
+grain4:
+            
+quality4:
+            
+amount5:
+            
+dimension5:
+            
+grain5:
+            
+quality5:
+            
+amount6:
+            
+dimension6:
+            
+grain6:
+            
+quality6:
+            
+amount7:
+            
+dimension7:
+            
+grain7:
+            
+quality7:
+            
+comments:
+            
+

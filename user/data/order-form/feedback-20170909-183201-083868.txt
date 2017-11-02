@@ -1,0 +1,78 @@
+firstname:
+            Marc
+lastname:
+            Aebischer
+company:
+            Malerei Aebischer
+street:
+            Bahnhofstrasse 115
+postal_code:
+            4313
+city:
+            Möhlin
+email:
+            aebischer.marc3@bluewin.ch
+phone:
+            0618511218
+amount1:
+            150
+dimension1:
+            115mm
+grain1:
+            40
+quality1:
+            
+amount2:
+            1
+dimension2:
+            75mm / 50m
+grain2:
+            100
+quality2:
+            
+amount3:
+            1
+dimension3:
+            100mm / 10m
+grain3:
+            
+quality3:
+            
+amount4:
+            
+dimension4:
+            
+grain4:
+            
+quality4:
+            
+amount5:
+            
+dimension5:
+            
+grain5:
+            
+quality5:
+            
+amount6:
+            
+dimension6:
+            
+grain6:
+            
+quality6:
+            
+amount7:
+            
+dimension7:
+            
+grain7:
+            
+quality7:
+            
+comments:
+            150 Schleifscheiben schwarz für Holz mit loch in der Mitte  CERS 706
+
+1 Rolle Rollenware CARAT  75mm /50m
+1 Rolle Schleifvlies rot Korund  100mm /10m
+

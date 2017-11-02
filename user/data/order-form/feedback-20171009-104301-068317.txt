@@ -1,0 +1,75 @@
+firstname:
+            Urs 
+lastname:
+            Baumann
+company:
+            Wenger Holzbau AG
+street:
+            Töpferweg 16
+postal_code:
+            3613
+city:
+            Steffisburg
+email:
+            urs.baumann@wengerholzbauag.ch
+phone:
+            033 439 08 78
+amount1:
+            1
+dimension1:
+            60/120mm
+grain1:
+            100
+quality1:
+            Superfix
+amount2:
+            
+dimension2:
+            
+grain2:
+            
+quality2:
+            
+amount3:
+            
+dimension3:
+            
+grain3:
+            
+quality3:
+            
+amount4:
+            
+dimension4:
+            
+grain4:
+            
+quality4:
+            
+amount5:
+            
+dimension5:
+            
+grain5:
+            
+quality5:
+            
+amount6:
+            
+dimension6:
+            
+grain6:
+            
+quality6:
+            
+amount7:
+            
+dimension7:
+            
+grain7:
+            
+quality7:
+            
+comments:
+            Bitte um Preisangabe.
+

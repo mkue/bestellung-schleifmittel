@@ -1,0 +1,77 @@
+de:
+    # Form
+    order_abrasives:       Schleifmittel hier direkt bestellen
+    firstname:             Vorname
+    lastname:              Nachname
+    company:               Firma
+    street:                Strasse
+    postal_code:           PLZ
+    city:                  Ort
+    email:                 E-Mail Adresse
+    phone:                 Telefon
+    amount:                Menge
+    dimension:             Dimension
+    grain:                 Körnung
+    quality:               Qualität
+    comments:              Bemerkungen
+    submit_button:         Abschicken
+    our_brochure:          Unser Sortiment
+    brochure_name:         Unsere_Schleifmittel.pdf
+
+    # Thank you
+    thankyou_title:        Herzlichen Dank für Ihren Auftrag
+    thankyou_confirmation: Sie werden in den nächsten Tagen von uns eine Bestätigung per E-Mail erhalten
+    thankyou_order:        Ihre Bestellung
+    thankyou_contact:      Bei Änderungen oder Fragen kontaktieren Sie uns bitte unter:<br><a href="mailto:bestellung-schleifmittel@kuendig.ch">bestellung-schleifmittel@kuendig.ch</a>
+
+fr:
+    # Form
+    order_abrasives:       Abrasifs à commander en ligne
+    firstname:             Prénom
+    lastname:              Nom de famille
+    company:               Entreprise
+    street:                Rue
+    postal_code:           Code postal
+    city:                  Ville
+    email:                 Adresse électronique
+    phone:                 Téléphone
+    amount:                Quantité
+    dimension:             Dimension
+    grain:                 Grain
+    quality:               Qualité
+    comments:              Remarques
+    submit_button:         Soumettre
+    our_brochure:          Notre Gamme
+    brochure_name:         Nos_Abrasifs.pdf
+
+    # Thank you
+    thankyou_title:        Un grand merci pour votre commande
+    thankyou_confirmation: Prochainement vous recevrez une confirmation de votre commande par E-mail
+    thankyou_order:        Votre commande
+    thankyou_contact:      Pour toute modification de votre commande ou questions, n’hésitez pas à nous contacter par courriel à:<br><a href="mailto:bestellung-schleifmittel@kuendig.ch">bestellung-schleifmittel@kuendig.ch</a>
+
+
+en:
+    # Form
+    order_abrasives:       Order abrasives here directly
+    firstname:             First Name
+    lastname:              Last Name
+    company:               Company
+    street:                Street
+    postal_code:           Postal code
+    city:                  City
+    email:                 E-Mail address
+    phone:                 Phone
+    amount:                Amount
+    dimension:             Dimension
+    grain:                 Grain
+    quality:               Quality
+    comments:              Comments
+    submit_button:         Submit
+    our_brochure:          Our product range
+
+    # Thank you
+    thankyou_title:        Thank you for your order
+    thankyou_confirmation: You will receive a confirmation by e-mail within the next few days
+    thankyou_order:        Your order
+    thankyou_contact:      For changes or questions please contact us at:<br><a href="mailto:bestellung-schleifmittel@kuendig.ch">bestellung-schleifmittel@kuendig.ch</a>

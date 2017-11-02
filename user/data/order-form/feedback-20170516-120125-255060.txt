@@ -1,0 +1,76 @@
+firstname:
+            Peter
+lastname:
+            Müller
+company:
+            Müller AG
+street:
+            Feldweg 25
+postal_code:
+            5030
+city:
+            Pfingen
+email:
+            p.mueller@gmx.ch
+phone:
+            035 455 67 89
+amount1:
+            10
+dimension1:
+            1200x1350
+grain1:
+            100
+quality1:
+            1A
+amount2:
+            20
+dimension2:
+            1200x1350
+grain2:
+            120
+quality2:
+            1A
+amount3:
+            10
+dimension3:
+            1200x1350
+grain3:
+            80
+quality3:
+            1A
+amount4:
+            5
+dimension4:
+            1100x1200
+grain4:
+            100
+quality4:
+            1B
+amount5:
+            5
+dimension5:
+            1100x1200
+grain5:
+            120
+quality5:
+            1A
+amount6:
+            6
+dimension6:
+            1100x1300
+grain6:
+            80
+quality6:
+            1A
+amount7:
+            20
+dimension7:
+            1100x1350
+grain7:
+            140
+quality7:
+            1AA
+comments:
+            schnell liefern
+danke
+

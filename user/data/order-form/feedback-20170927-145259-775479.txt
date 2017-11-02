@@ -1,0 +1,75 @@
+firstname:
+            Marcel 
+lastname:
+            Widmer
+company:
+            Stahel+Köng AG
+street:
+            Kemptnerstrasse, 13
+postal_code:
+            8340
+city:
+            Hinwil
+email:
+            mw@st-k.ch
+phone:
+            +41 44 938 30 91
+amount1:
+            1
+dimension1:
+            
+grain1:
+            
+quality1:
+            ihiupuhh
+amount2:
+            
+dimension2:
+            
+grain2:
+            
+quality2:
+            
+amount3:
+            
+dimension3:
+            
+grain3:
+            
+quality3:
+            
+amount4:
+            
+dimension4:
+            
+grain4:
+            
+quality4:
+            
+amount5:
+            
+dimension5:
+            
+grain5:
+            
+quality5:
+            
+amount6:
+            
+dimension6:
+            
+grain6:
+            
+quality6:
+            
+amount7:
+            
+dimension7:
+            
+grain7:
+            
+quality7:
+            
+comments:
+            
+

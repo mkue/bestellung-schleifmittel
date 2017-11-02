@@ -1,0 +1,75 @@
+firstname:
+            Simon 
+lastname:
+            Fontana
+company:
+            Stuhl-Leimerei
+street:
+            Herrengässli 7
+postal_code:
+            3150
+city:
+            Schwarzenburg
+email:
+            
+phone:
+            
+amount1:
+            5
+dimension1:
+            102 X 552
+grain1:
+            120
+quality1:
+            RED
+amount2:
+            5
+dimension2:
+            102 X 552
+grain2:
+            100
+quality2:
+            RED
+amount3:
+            
+dimension3:
+            
+grain3:
+            
+quality3:
+            
+amount4:
+            
+dimension4:
+            
+grain4:
+            
+quality4:
+            
+amount5:
+            
+dimension5:
+            
+grain5:
+            
+quality5:
+            
+amount6:
+            
+dimension6:
+            
+grain6:
+            
+quality6:
+            
+amount7:
+            
+dimension7:
+            
+grain7:
+            
+quality7:
+            
+comments:
+            
+

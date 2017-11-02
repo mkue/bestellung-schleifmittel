@@ -1,0 +1,75 @@
+firstname:
+            Harald
+lastname:
+            Weber
+company:
+            Elbau Küchen AG
+street:
+            Rälimoosstrasse 1
+postal_code:
+            9055
+city:
+            Bühler
+email:
+            hweber@elbau.ch
+phone:
+            071-7918826
+amount1:
+            20
+dimension1:
+            1370 x 2620
+grain1:
+            320
+quality1:
+            EKA 3000E/AEKMNS
+amount2:
+            
+dimension2:
+            
+grain2:
+            
+quality2:
+            
+amount3:
+            
+dimension3:
+            
+grain3:
+            
+quality3:
+            
+amount4:
+            
+dimension4:
+            
+grain4:
+            
+quality4:
+            
+amount5:
+            
+dimension5:
+            
+grain5:
+            
+quality5:
+            
+amount6:
+            
+dimension6:
+            
+grain6:
+            
+quality6:
+            
+amount7:
+            
+dimension7:
+            
+grain7:
+            
+quality7:
+            
+comments:
+            
+

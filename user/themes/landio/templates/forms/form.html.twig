@@ -1,0 +1,163 @@
+{% if form is null %}
+    {% set form = grav.session.getFlashObject('form') %}
+{% endif %}
+
+{% if form.message %}
+    {% if form.inline_errors and form.messages %}
+        <div class="alert notices {{ form.message_color ?: 'green' }}">
+            <p>{{ "FORM.VALIDATION_FAIL"|t|raw }}</p>
+        </div>
+    {% else %}
+        <div class="alert notices {{ form.message_color ?: 'green' }}">
+            <p>{{ form.message|raw }}</p>
+        </div>
+    {% endif %}
+{% endif %}
+{% set scope = scope?: 'data.' %}
+{% set multipart = '' %}
+{% set method = form.method | upper | default('POST') %}
+
+{% for field in form.fields %}
+    {% if (method == 'POST' and field.type == 'file') %}
+        {% set multipart = ' enctype="multipart/form-data"' %}
+    {% endif %}
+{% endfor %}
+
+{% set action = form.action
+    ? base_url ~ form.action
+    : base_url ~ page.route ~ uri.params %}
+
+{% if (action == base_url_relative) %}
+    {% set action = base_url_relative ~ '/' ~ page.slug %}
+{% endif %}
+
+<form name="{{ form.name }}" action="{{ action }}" method="{{ method }}" {{ multipart }} {% if form.id %} id="{{ form.id }}" {% endif %} {% block form_classes %} {% if form.classes %} class="{{ form.classes }}" {% endif %} {% endblock %}>
+    <div class="row">
+        <div class="form-field vertical">
+            <div class="col-sm-6">
+                <div class="form-data" data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+                    <div class="form-group has-icon-left form-control-data[firstname] ">
+                        <input name="data[firstname]" value="" type="text" class="form-control form-control-xs" id="firstname" placeholder="{{'firstname'|t}}" required="required">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-data" data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+                    <div class="form-group has-icon-left form-control-data[lastname] ">
+                        <input name="data[lastname]" value="" type="text" class="form-control form-control-xs" id="lastname" placeholder="{{'lastname'|t}}" required="required">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-field vertical">
+        <div class="form-data" data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+            <div class="form-group has-icon-left form-control-data[company] ">
+                <input name="data[company]" value="" type="text" class="form-control form-control-xs" id="company" placeholder="{{'company'|t}}">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="form-field vertical">
+        <div class="form-data" data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+            <div class="form-group has-icon-left form-control-data[street] ">
+                <input name="data[street]" value="" type="text" class="form-control form-control-xs" id="street" placeholder="{{'street'|t}}">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="form-field vertical">
+            <div class="col-sm-3">
+                <div class="form-data" data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+                    <div class="form-group has-icon-left form-control-data[postal_code] ">
+                        <input name="data[postal_code]" value="" type="text" class="form-control form-control-xs" id="postal_code" placeholder="{{'postal_code'|t}}" required="required">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="form-data" data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+                    <div class="form-group has-icon-left form-control-data[city] ">
+                        <input name="data[city]" value="" type="text" class="form-control form-control-xs" id="city" placeholder="{{'city'|t}}" required="required">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-field vertical">
+        <div class="form-data" data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+            <div class="form-group has-icon-left form-control-data[email] ">
+                <input name="data[email]" value="" type="email" class="form-control form-control-xs" id="email" placeholder="{{'email'|t}}" required="required">
+            </div>
+        </div>
+    </div>
+
+    <div class="form-field vertical">
+        <div class="form-data" data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+            <div class="form-group has-icon-left form-control-data[phone] ">
+                <input name="data[phone]" value="" type="tel" class="form-control form-control-xs" id="phone" placeholder="{{'phone'|t}}" required="required">
+            </div>
+        </div>
+    </div>
+
+    <hr class="m-t-md m-b-md">
+    {% set k = 7 %}
+    {% for i in range(1, k) %}
+        <div class="row">
+            <div class="form-field vertical">
+                <div class="col-xs-2">
+                    <div class="form-data" data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+                        <div class="has-icon-left form-control-data[amount{{ i }}] ">
+                            <input name="data[amount{{ i }}]" value="" type="number" class="form-control form-control-xs" id="amount{{ i }}" placeholder="{{'amount'|t}}">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4 form-column">
+                    <div class="form-data" data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+                        <div class="has-icon-left form-control-data[dimension{{ i }}] ">
+                            <input name="data[dimension{{ i }}]" value="" type="text" class="form-control form-control-xs" id="dimension{{ i }}" placeholder="{{'dimension'|t}}">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3 form-column">
+                    <div class="form-data" data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+                        <div class="has-icon-left form-control-data[grain{{ i }}] ">
+                            <input name="data[grain{{ i }}]" value="" type="number" class="form-control form-control-xs" id="grain{{ i }}" placeholder="{{'grain'|t}}">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-3 form-column">
+                    <div class="form-data" data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+                        <div class="has-icon-left form-control-data[quality{{ i }}] ">
+                            <input name="data[quality{{ i }}]" value="" type="text" class="form-control input-sm" id="quality{{ i }}" placeholder="{{'quality'|t}}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+
+    <hr class="m-t-md m-b-md">
+    <div class="form-field vertical">
+        <div class="form-label">
+            <label class="sr-only"></label>
+        </div>
+        <div class="form-data" data-grav-field="text" data-grav-disabled="true" data-grav-default="null">
+            <div class="form-group has-icon-left form-control-data[comments] ">
+                <textarea rows=5 name="data[comments]" value="" type="textarea" class="form-control form-control-lg" id="comments" placeholder="{{'comments'|t}}"></textarea>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-md-4 control-label"></label>
+        <div class="col-md-4 center-block">
+            <button type="submit" class="btn btn-primary btn-block">{{'submit_button'|t}}</button>
+        </div>
+    </div>
+
+    {{ nonce_field('form', 'form-nonce')|raw }}
+</form>

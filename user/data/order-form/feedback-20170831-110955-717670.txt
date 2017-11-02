@@ -1,0 +1,75 @@
+firstname:
+            Beat 
+lastname:
+            Aeschlimann
+company:
+            Gerber+Stettler AG Schreinerei
+street:
+            Hübeli
+postal_code:
+            3614
+city:
+            Unterlangenegg
+email:
+            gerber-stettler_@bluewin.ch
+phone:
+            0334532438
+amount1:
+            2
+dimension1:
+            60x120mm
+grain1:
+            120
+quality1:
+            Superfix Klett-Belag
+amount2:
+            1
+dimension2:
+            60x120mm
+grain2:
+            180
+quality2:
+            Superfix Klett-Belag
+amount3:
+            
+dimension3:
+            
+grain3:
+            
+quality3:
+            
+amount4:
+            
+dimension4:
+            
+grain4:
+            
+quality4:
+            
+amount5:
+            
+dimension5:
+            
+grain5:
+            
+quality5:
+            
+amount6:
+            
+dimension6:
+            
+grain6:
+            
+quality6:
+            
+amount7:
+            
+dimension7:
+            
+grain7:
+            
+quality7:
+            
+comments:
+            
+

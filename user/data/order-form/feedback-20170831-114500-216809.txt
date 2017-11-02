@@ -1,0 +1,75 @@
+firstname:
+            Harald
+lastname:
+            Weber
+company:
+            Elbau Küchen AG
+street:
+            Rälimoosstrasse 1
+postal_code:
+            9055
+city:
+            Bühler
+email:
+            hweber@elbau.ch
+phone:
+            071-7918826
+amount1:
+            10
+dimension1:
+            150 x 5100
+grain1:
+            220
+quality1:
+            AEKMNS
+amount2:
+            20
+dimension2:
+            150 x 5100
+grain2:
+            280
+quality2:
+            AEKMNS
+amount3:
+            20
+dimension3:
+            150 x 5100
+grain3:
+            320
+quality3:
+            AEKMNS
+amount4:
+            20
+dimension4:
+            150 x 5100
+grain4:
+            1200
+quality4:
+            EKA-Film
+amount5:
+            30
+dimension5:
+            150 x 5100
+grain5:
+            1500
+quality5:
+            EKA-Film
+amount6:
+            
+dimension6:
+            
+grain6:
+            
+quality6:
+            
+amount7:
+            
+dimension7:
+            
+grain7:
+            
+quality7:
+            
+comments:
+            Bitte wie die letzten Lieferung.
+

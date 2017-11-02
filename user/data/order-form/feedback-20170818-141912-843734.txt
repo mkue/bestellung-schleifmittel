@@ -1,0 +1,75 @@
+firstname:
+            Beat
+lastname:
+            Schär
+company:
+            Wey Parkett AG
+street:
+            Entlebucherstr. 33
+postal_code:
+            6110
+city:
+            Wolhusen
+email:
+            info@wey-parkett.ch
+phone:
+            041/490 46 65
+amount1:
+            50
+dimension1:
+            178x8 mm
+grain1:
+            60
+quality1:
+            CERS 706 WZ10-08
+amount2:
+            50
+dimension2:
+            178x8 mm
+grain2:
+            80
+quality2:
+            CERS 706 WZ10-08
+amount3:
+            50
+dimension3:
+            178x8 mm
+grain3:
+            100
+quality3:
+            CERS 706 WZ10-08
+amount4:
+            10
+dimension4:
+            432 cm
+grain4:
+            
+quality4:
+            Schleifpad weiss dünn 1cm
+amount5:
+            10
+dimension5:
+            432 cm
+grain5:
+            
+quality5:
+            Schleifpad weiss dick 2cm
+amount6:
+            10
+dimension6:
+            432 cm
+grain6:
+            
+quality6:
+            Schleifbad violett
+amount7:
+            
+dimension7:
+            
+grain7:
+            
+quality7:
+            
+comments:
+            Bitte um Auftragsbestätigung vor Warenauslieferung auf info@wey-parkett.ch
+

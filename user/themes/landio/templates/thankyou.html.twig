@@ -1,0 +1,25 @@
+{% extends 'partials/base.html.twig' %}
+{% block content %}
+
+    {% block navigation %}{% endblock %}
+
+    {% block header %}{% endblock %}
+
+    <section class="section-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-4 col-sm-offset-2">
+                    <h3>{{ "thankyou_title"|t }}</h3>
+                    <h5 class="m-b-lg">{{ "thankyou_confirmation"|t }}</h5>
+                    <h2>{{ "thankyou_order"|t }}</h2>
+                    <hr>
+                    {% include "forms/data.html.twig" %}
+                    <hr>
+                    <h5>{{ "thankyou_contact"|t }}</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
+{% block footer %}{% endblock %}

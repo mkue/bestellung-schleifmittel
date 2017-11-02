@@ -1,0 +1,14 @@
+enabled: true
+from: bestellung-schleifmittel@kuendig.ch
+from_name: 'Bestellung Schleifmittel'
+to: your@email.here
+mailer:
+  engine: mail
+  smtp:
+    server: localhost
+    port: 25
+    encryption: none
+  sendmail:
+    bin: /usr/sbin/sendmail
+content_type: text/html
+debug: false

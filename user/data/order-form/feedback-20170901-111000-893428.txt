@@ -1,0 +1,75 @@
+firstname:
+            Schmid
+lastname:
+            Frederic
+company:
+            r-team Schreinerei
+street:
+            Lampertji 6
+postal_code:
+            3945
+city:
+            Gampel
+email:
+            frederic.schmid@yahoo.com
+phone:
+            027 932 11 44
+amount1:
+            20
+dimension1:
+            RKX 150mm x 2600mm
+grain1:
+            100
+quality1:
+            
+amount2:
+            
+dimension2:
+            
+grain2:
+            
+quality2:
+            
+amount3:
+            
+dimension3:
+            
+grain3:
+            
+quality3:
+            
+amount4:
+            
+dimension4:
+            
+grain4:
+            
+quality4:
+            
+amount5:
+            
+dimension5:
+            
+grain5:
+            
+quality5:
+            
+amount6:
+            
+dimension6:
+            
+grain6:
+            
+quality6:
+            
+amount7:
+            
+dimension7:
+            
+grain7:
+            
+quality7:
+            
+comments:
+            Für Kantenschleifmaschine
+

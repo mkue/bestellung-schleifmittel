@@ -1,0 +1,75 @@
+firstname:
+            Beat 
+lastname:
+            Schär 
+company:
+            Wey Parkett AG
+street:
+            
+postal_code:
+            6110
+city:
+            Wolhusen
+email:
+            info@wey-parkett.ch
+phone:
+            041/490 46 65
+amount1:
+            10
+dimension1:
+            1330 x 1900 mm
+grain1:
+            80
+quality1:
+            
+amount2:
+            5
+dimension2:
+            1330 x 1900 mm
+grain2:
+            40
+quality2:
+            
+amount3:
+            10
+dimension3:
+            200 x 750 mm
+grain3:
+            40
+quality3:
+            RKX
+amount4:
+            10
+dimension4:
+            200 x 750 mm
+grain4:
+            60
+quality4:
+            RKX
+amount5:
+            10
+dimension5:
+            200 x 750 mm
+grain5:
+            80
+quality5:
+            RKX
+amount6:
+            10
+dimension6:
+            200 x 750 mm
+grain6:
+            100
+quality6:
+            RKX
+amount7:
+            10
+dimension7:
+            200 x 750 mm
+grain7:
+            120
+quality7:
+            RKX
+comments:
+            Bitte um Auftragsbestätigung vor Warenversand auf info@wey-parkett.ch
+

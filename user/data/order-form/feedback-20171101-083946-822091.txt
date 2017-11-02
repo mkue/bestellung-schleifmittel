@@ -1,0 +1,76 @@
+firstname:
+            Beat
+lastname:
+            Sommer
+company:
+            Emaform AG
+street:
+            Zetzwilerstrasse 760
+postal_code:
+            5728
+city:
+            Gontenschwil AG
+email:
+            bsommer@emaform.ch
+phone:
+            062 767 20 02
+amount1:
+            1
+dimension1:
+            Rollen RKEO
+grain1:
+            180
+quality1:
+            115mm x 50m 
+amount2:
+            1
+dimension2:
+            Schaumstoffbogen
+grain2:
+            240
+quality2:
+            SBS (Box)
+amount3:
+            1
+dimension3:
+            Schaumstoffbogen
+grain3:
+            400
+quality3:
+            SBS (Box)
+amount4:
+            
+dimension4:
+            
+grain4:
+            
+quality4:
+            
+amount5:
+            
+dimension5:
+            
+grain5:
+            
+quality5:
+            
+amount6:
+            
+dimension6:
+            
+grain6:
+            
+quality6:
+            
+amount7:
+            
+dimension7:
+            
+grain7:
+            
+quality7:
+            
+comments:
+            Sehr geehrte Frau Gnehm
+Viele Dank für Ihre Auskunft am Telefon. Gerne möchte ich mal von Ihren Schleifmittel was probieren und bestelle gem. Tabelle. Wäre es ev. möglich noch etwas von dem Ekaflex K180 beizulegen, so als Muster? Vielen Dank
+

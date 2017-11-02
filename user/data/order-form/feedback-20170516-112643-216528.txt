@@ -1,0 +1,19 @@
+firstname:
+            Michael
+lastname:
+            Kündig
+company:
+            Kündig AG
+street:
+            Friesstrasse 25
+postal_code:
+            8050
+city:
+            Zürich 
+email:
+            michael.kuendig@gmail.com
+phone:
+            797657956
+comments:
+            toptotptopt
+

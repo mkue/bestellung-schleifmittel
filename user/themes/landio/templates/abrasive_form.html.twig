@@ -1,0 +1,49 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block navigation %}
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-10 col-md-offset-1 col-xl-8 col-xl-offset-2 text-right m-t-md">
+                <a class="navbar-href" href="/de">Deutsch</a>
+                <a class="navbar-href" href="/fr">Français</a>
+                <a class="navbar-href" href="/en">English</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block header %}
+    <header class="text-center m-b-md" role="banner">
+        <div class="container">
+            <div class="row hidden-xs" style="display: flex; align-items: center;">
+                <div class="col-sm-9 col-md-7 col-md-offset-1 col-xl-6 col-xl-offset-2">
+                    {{ page.media['Rollenhalter.jpg'].resize(800).html('', '', 'img-responsive') }}
+                </div>
+                <div class="col-sm-3 col-md-3 col-xl-2">
+                    <a href="{{ page.media[t('brochure_name')].url }}" target="_blank">
+                        <img class="img-responsive-brochure" src="{{ page.media['Unsere_Schleifmittel_ico.jpg'].url }}">
+                    </a>
+                    <h6 class="m-t text-right">{{ "our_brochure"|t }}</h6>
+                </div>
+            </div>
+            <div class="row m-t-md">
+                <div class="col-xs-12">
+                    <h2>{{ "order_abrasives"|t }}</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+{% endblock %}
+
+
+{% block content %}
+    <div class="container m-b-md">
+        <div class="col-md-10 col-md-offset-1 col-xl-8 col-xl-offset-2">
+            <div class="row">
+                {% include "forms/form.html.twig" %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block footer %}{% endblock %}

@@ -1,0 +1,75 @@
+firstname:
+            Beat
+lastname:
+            Schär
+company:
+            Wey Parkett AG
+street:
+            Entlebucherstr. 33
+postal_code:
+            6110
+city:
+            Wolhusen
+email:
+            info@wey-parkett.ch
+phone:
+            041/490 46 65
+amount1:
+            20
+dimension1:
+            432 mm
+grain1:
+            80
+quality1:
+            Schleifnetze
+amount2:
+            10
+dimension2:
+            432 mm
+grain2:
+            100
+quality2:
+            Schleifnetze
+amount3:
+            10
+dimension3:
+            432 mm
+grain3:
+            120 
+quality3:
+            Schleifnetze
+amount4:
+            10
+dimension4:
+            432 mm
+grain4:
+            40 
+quality4:
+            Schleifteller
+amount5:
+            10
+dimension5:
+            432 mm
+grain5:
+            24
+quality5:
+            Schleifteller
+amount6:
+            
+dimension6:
+            
+grain6:
+            
+quality6:
+            
+amount7:
+            
+dimension7:
+            
+grain7:
+            
+quality7:
+            
+comments:
+            Bitte um Auftragsbestätigung vor Warenversand auf info@wey-parkett.ch
+
